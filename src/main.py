@@ -40,7 +40,7 @@ class ThalaIngestionPipeline:
         # Start Slack monitoring in separate thread
         slack_thread = threading.Thread(
             target=self.slack_connector.start_monitoring,
-            args=(30,),  # Check every 30 seconds
+            args=(15,),  # Check every 15 seconds
             daemon=True
         )
         
@@ -54,7 +54,7 @@ class ThalaIngestionPipeline:
         # Start Jira monitoring in separate thread
         jira_thread = threading.Thread(
             target=self.jira_connector.start_monitoring,
-            args=(60,),  # Check every 60 seconds
+            args=(15,),  # Check every 15 seconds
             daemon=True
         )
 
