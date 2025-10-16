@@ -1,0 +1,634 @@
+2025-10-16 17:40:43,496 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 17:40:43,501 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 17:40:43,501 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 17:40:43,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 17:40:43,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 17:40:43,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 17:40:43,510 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 17:40:43,510 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 17:40:43,510 - email_connector - INFO - Starting email monitoring...
+2025-10-16 17:40:43,510 - __main__ - INFO - All connectors started successfully!
+2025-10-16 17:40:43,969 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 17:40:43,969 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 17:40:43,977 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 17:40:43,977 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 17:40:43,987 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 17:40:43,987 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 17:40:43,998 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 17:40:43,998 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 17:40:44,008 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 17:40:44,008 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 17:40:44,019 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 17:40:44,019 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 17:40:44,028 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 17:40:44,028 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 17:40:44,038 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 17:40:44,038 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 17:40:44,048 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 17:40:44,048 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 17:40:44,059 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 17:40:44,065 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 17:40:44,071 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 17:40:44,077 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 17:40:44,081 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 17:40:44,086 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 17:40:45,344 - email_connector - INFO - Connected to email server
+2025-10-16 17:40:46,454 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:40:46,464 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:41:14,494 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:41:44,902 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:41:47,063 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:41:47,063 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:42:15,267 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:42:45,669 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:42:47,733 - email_connector - INFO - Raw IMAP search result: [b'50']
+2025-10-16 17:42:47,733 - email_connector - INFO - Found 1 new emails
+2025-10-16 17:42:48,201 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 17:42:48,201 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 17:42:48,201 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 17:42:48,217 - kafka_producer - INFO - Message sent to topic thala-email-events: email_8a0c71f67e2d24139434e12720a06253
+2025-10-16 17:43:16,061 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:43:46,469 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:43:48,988 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:43:48,988 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:44:16,812 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:44:47,206 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:44:49,581 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:44:49,581 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:45:17,604 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:45:48,140 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:45:50,112 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:45:50,112 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:46:18,547 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:46:48,879 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:46:50,611 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 17:46:50,611 - email_connector - INFO - Found 0 new emails
+2025-10-16 17:47:19,333 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:56:12,502 - kafka.client - INFO - Closing idle connection 1, last active 804284 ms ago
+2025-10-16 17:56:12,502 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-16 17:56:12,502 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 17:56:12,518 - slack_sdk.web.base_client - ERROR - Failed to send a request to Slack API server: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-10-16 17:56:12,552 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 17:56:12,558 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-16 17:56:12,561 - slack_sdk.web.base_client - INFO - A retry handler found: ConnectionErrorRetryHandler for POST https://slack.com/api/conversations.history - <urlopen error [Errno 11001] getaddrinfo failed>
+2025-10-16 17:56:12,566 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 17:56:12,578 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-16 17:56:12,593 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 17:56:12,598 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,598 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,704 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,704 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,816 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,816 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,920 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:12,920 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,023 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,023 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,130 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,130 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,246 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,246 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,317 - slack_sdk.web.base_client - INFO - Going to retry the same request: POST https://slack.com/api/conversations.history
+2025-10-16 17:56:13,349 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,349 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,454 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,454 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,569 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,569 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,681 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,689 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,795 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,795 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,902 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:13,902 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:14,007 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:14,007 - kafka.cluster - WARNING - No broker metadata found in MetadataResponse -- ignoring.
+2025-10-16 17:56:14,745 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:56:45,171 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:57:12,558 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 17:57:15,575 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:57:46,016 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:58:12,560 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 17:58:16,451 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:58:46,841 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:59:12,562 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 17:59:17,289 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 17:59:47,658 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:00:12,564 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:00:18,100 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:00:48,621 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:01:12,565 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:01:18,999 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:01:49,405 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:02:12,567 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:02:19,799 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:02:50,180 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:03:12,568 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:03:20,563 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:03:50,960 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:04:12,571 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:04:21,349 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:04:51,716 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:05:12,572 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:05:22,089 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:05:52,457 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:06:12,573 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:06:22,816 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:06:53,234 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:07:12,574 - email_connector - ERROR - Error fetching emails: socket error: EOF occurred in violation of protocol (_ssl.c:2427)
+2025-10-16 18:07:23,649 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:07:29,869 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:07:29,869 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 18:07:29,872 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-16 18:07:29,874 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:07:29,874 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Kafka producer closed
+2025-10-16 18:48:00,403 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:48:00,411 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:48:00,411 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:48:00,411 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:48:00,420 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:48:00,420 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:48:00,420 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 18:48:00,428 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 18:48:00,432 - email_connector - INFO - Starting email monitoring...
+2025-10-16 18:48:00,432 - __main__ - INFO - All connectors started successfully!
+2025-10-16 18:48:00,864 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 18:48:00,874 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:48:00,874 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:48:00,874 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:48:00,889 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 18:48:00,889 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 18:48:00,889 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 18:48:00,895 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 18:48:00,905 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 18:48:00,905 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 18:48:00,905 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 18:48:00,905 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 18:48:00,905 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 18:48:00,915 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 18:48:00,916 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 18:48:00,916 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 18:48:00,916 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 18:48:00,916 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 18:48:00,925 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 18:48:01,953 - email_connector - INFO - Connected to email server
+2025-10-16 18:48:02,455 - email_connector - INFO - Raw IMAP search result: [b'52 53']
+2025-10-16 18:48:02,455 - email_connector - INFO - Found 2 new emails
+2025-10-16 18:48:02,895 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:48:02,895 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:48:02,905 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:48:02,910 - kafka_producer - INFO - Message sent to topic thala-email-events: email_57a6d556d07bc3cf1cfa3b3baf75fb3f
+2025-10-16 18:48:03,384 - kafka_producer - INFO - Message sent to topic thala-email-events: email_c79166c71dc38f5573402211cf678197
+2025-10-16 18:48:31,336 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:48:47,824 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:48:47,826 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 18:48:47,826 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:48:48,325 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-2 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 18:48:48,327 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:48:48,328 - __main__ - INFO - Shutdown complete.
+2025-10-16 18:48:48,328 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:48:48,329 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Kafka producer closed
+2025-10-16 18:49:59,587 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:49:59,597 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:49:59,597 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:49:59,597 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:49:59,607 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:49:59,607 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:49:59,618 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:49:59,622 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:49:59,622 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:50:00,320 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 18:50:00,331 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:50:38,207 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:50:38,207 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:50:38,207 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:50:38,207 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:50:38,217 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:50:38,217 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:50:38,217 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:50:38,217 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:50:38,217 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:50:38,668 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 18:54:10,902 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:54:10,902 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:54:10,902 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:54:10,912 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:54:10,922 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:54:10,922 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:54:10,931 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:54:10,933 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:54:10,933 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:54:11,412 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 18:54:11,412 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 18:54:11,412 - email_connector - INFO - Starting email monitoring...
+2025-10-16 18:54:11,423 - __main__ - INFO - All connectors started successfully!
+2025-10-16 18:54:11,838 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 18:54:11,848 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:54:11,848 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:54:11,848 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:54:11,848 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 18:54:11,848 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 18:54:11,848 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 18:54:11,858 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 18:54:11,858 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 18:54:11,858 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 18:54:11,869 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 18:54:11,869 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 18:54:11,889 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 18:54:11,894 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 18:54:11,898 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 18:54:11,901 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 18:54:11,901 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 18:54:11,901 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 18:54:11,909 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 18:54:11,909 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 18:54:11,909 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 18:54:11,909 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 18:54:11,919 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 18:54:11,919 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 18:54:12,862 - email_connector - INFO - Connected to email server
+2025-10-16 18:54:13,392 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 18:54:13,392 - email_connector - INFO - Found 0 new emails
+2025-10-16 18:54:42,361 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:55:12,735 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:55:13,941 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 18:55:13,941 - email_connector - INFO - Found 0 new emails
+2025-10-16 18:55:43,127 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:56:13,498 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:56:14,488 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 18:56:14,488 - email_connector - INFO - Found 0 new emails
+2025-10-16 18:56:31,570 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:56:31,591 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:56:31,591 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:56:31,591 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:56:31,591 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:56:31,591 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:56:31,599 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:56:31,601 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 18:56:31,601 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:56:32,019 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 18:56:32,019 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 18:56:32,019 - email_connector - INFO - Starting email monitoring...
+2025-10-16 18:56:32,029 - __main__ - INFO - All connectors started successfully!
+2025-10-16 18:56:32,426 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 18:56:32,426 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 18:56:32,426 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 18:56:32,426 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:56:32,426 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 18:56:32,437 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 18:56:32,437 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 18:56:32,437 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 18:56:32,437 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 18:56:32,447 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 18:56:32,447 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 18:56:32,447 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 18:56:32,447 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 18:56:32,457 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 18:56:32,457 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 18:56:32,457 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 18:56:32,467 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 18:56:32,467 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 18:56:32,467 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 18:56:32,477 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 18:56:32,483 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 18:56:32,483 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 18:56:32,487 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 18:56:32,487 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 18:56:33,271 - email_connector - INFO - Connected to email server
+2025-10-16 18:56:33,785 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 18:56:33,789 - email_connector - INFO - Found 0 new emails
+2025-10-16 18:57:02,928 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:57:33,342 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:57:34,319 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 18:57:34,319 - email_connector - INFO - Found 0 new emails
+2025-10-16 18:58:03,717 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 18:58:08,592 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:58:08,593 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 18:58:08,597 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:58:09,117 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-2 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 18:58:09,117 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 18:58:09,117 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 18:58:09,117 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Kafka producer closed
+2025-10-16 19:17:39,817 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:17:39,819 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:17:39,819 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:17:39,819 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:17:39,829 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:17:39,829 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:17:39,829 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:17:39,839 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:17:39,839 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:17:40,230 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 19:17:40,240 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 19:17:40,240 - email_connector - INFO - Starting email monitoring...
+2025-10-16 19:17:40,247 - jira_connector - INFO - Starting Jira issue monitoring...
+2025-10-16 19:17:40,257 - __main__ - INFO - All connectors started successfully!
+2025-10-16 19:17:40,611 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 19:17:40,611 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:17:40,611 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:17:40,611 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:17:40,616 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 19:17:40,616 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 19:17:40,619 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 19:17:40,621 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 19:17:40,623 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 19:17:40,623 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 19:17:40,623 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 19:17:40,623 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 19:17:40,623 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 19:17:40,630 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 19:17:40,630 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 19:17:40,630 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 19:17:40,633 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 19:17:41,203 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:17:41,203 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:17:41,205 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:17:41,205 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:17:41,212 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:17:41,212 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:17:41,212 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:17:41,212 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:17:41,215 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:17:41,543 - email_connector - INFO - Connected to email server
+2025-10-16 19:17:42,052 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:17:42,052 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:18:11,045 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:18:41,218 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:18:41,429 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:18:41,797 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:18:41,800 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:18:41,801 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:18:41,803 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:18:41,803 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:18:41,805 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:18:42,578 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:18:42,579 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:19:11,826 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:19:41,806 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:19:42,219 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:19:42,446 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:19:42,448 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:19:42,448 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:19:42,448 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:19:42,448 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:19:42,448 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:19:43,110 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:19:43,110 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:20:12,772 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:20:42,458 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:20:42,989 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:20:42,989 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:20:42,989 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:20:42,995 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:20:42,995 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:20:42,995 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:20:43,155 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:20:43,908 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:20:43,908 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:21:13,625 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:21:43,003 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:21:43,694 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:21:43,702 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:21:43,704 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:21:43,704 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:21:43,709 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:21:43,709 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:21:44,012 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:21:44,442 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:21:44,442 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:22:14,464 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:22:39,843 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:22:39,850 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:22:39,852 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:22:43,714 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:22:44,207 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:22:44,207 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:22:44,207 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:22:44,207 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:22:44,207 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:22:44,219 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:22:44,864 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:22:44,975 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:22:44,975 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:23:15,288 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:23:44,221 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:23:44,680 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:23:44,680 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:23:44,680 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:23:44,680 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:23:44,680 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:23:44,680 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:23:45,525 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:23:45,525 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:23:45,701 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:24:16,054 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:38:31,333 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:38:31,340 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:38:31,340 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:38:31,340 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:38:31,350 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:38:31,350 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:38:31,350 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:38:31,350 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:38:31,350 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:38:32,034 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 19:38:32,034 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 19:38:32,034 - email_connector - INFO - Starting email monitoring...
+2025-10-16 19:38:32,034 - jira_connector - INFO - Starting Jira issue monitoring...
+2025-10-16 19:38:32,044 - __main__ - INFO - All connectors started successfully!
+2025-10-16 19:38:32,402 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 19:38:32,402 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:38:32,412 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:38:32,413 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:38:32,446 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 19:38:32,448 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 19:38:32,452 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 19:38:32,452 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 19:38:32,456 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 19:38:32,458 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 19:38:32,462 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 19:38:32,464 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 19:38:32,466 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 19:38:32,466 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 19:38:32,472 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 19:38:32,472 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 19:38:32,472 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 19:38:32,482 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 19:38:32,482 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 19:38:32,482 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 19:38:32,492 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 19:38:32,492 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 19:38:32,492 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 19:38:32,499 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 19:38:32,918 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:38:32,918 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:38:32,918 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:38:32,918 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:38:32,935 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:38:32,935 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:38:32,939 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:38:32,939 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:38:32,939 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:38:33,366 - email_connector - INFO - Connected to email server
+2025-10-16 19:38:33,887 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:38:33,887 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:39:02,895 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:39:32,944 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:39:33,266 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:39:33,451 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:39:33,455 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:39:33,456 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:39:33,456 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:39:33,456 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:39:33,456 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:39:34,449 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:39:34,449 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:40:03,626 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:40:33,462 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:40:33,912 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:40:33,912 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:40:33,912 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:40:33,912 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:40:33,920 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:40:33,920 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:40:34,005 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:40:35,066 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:40:35,066 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:41:04,380 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:41:33,921 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:41:34,500 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:41:34,517 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:41:34,518 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:41:34,518 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:41:34,518 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:41:34,518 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:41:34,753 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:41:35,697 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:41:35,697 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:42:05,163 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:42:34,524 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:42:35,059 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:42:35,059 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:42:35,059 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:42:35,075 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:42:35,076 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:42:35,076 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:42:35,521 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:42:36,276 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:42:36,276 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:43:05,925 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:43:31,383 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:43:31,383 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:43:31,385 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:43:35,079 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:43:35,531 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:43:35,535 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:43:35,538 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:43:35,538 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:43:35,538 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:43:35,538 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:43:36,301 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:43:36,788 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:43:36,788 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:44:06,690 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:44:35,544 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:44:36,022 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:44:36,022 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:44:36,022 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:44:36,022 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:44:36,022 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:44:36,029 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:44:37,028 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:44:37,309 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:44:37,309 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:45:07,411 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:45:36,032 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:45:36,482 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:45:36,482 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:45:36,482 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:45:36,488 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:45:36,488 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:45:36,488 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:45:37,778 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:45:37,888 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:45:37,888 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:46:08,177 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:46:22,208 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:46:22,208 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:46:22,208 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2025-10-16 19:46:22,224 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:46:22,662 - __main__ - INFO - Starting Thala Data Ingestion Pipeline...
+2025-10-16 19:46:22,662 - slack_connector - INFO - Starting Slack message monitoring...
+2025-10-16 19:46:22,670 - email_connector - INFO - Starting email monitoring...
+2025-10-16 19:46:22,670 - jira_connector - INFO - Starting Jira issue monitoring...
+2025-10-16 19:46:22,670 - __main__ - INFO - All connectors started successfully!
+2025-10-16 19:46:23,079 - slack_connector - INFO - Fetched 20 new messages from Slack
+2025-10-16 19:46:23,084 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:46:23,100 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:46:23,100 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:46:23,100 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598420.053289
+2025-10-16 19:46:23,100 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598437.439979
+2025-10-16 19:46:23,100 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598863.093079
+2025-10-16 19:46:23,100 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760598877.387209
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606424.930139
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760606987.480749
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607140.563639
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607228.735599
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607299.654879
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607484.269949
+2025-10-16 19:46:23,110 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607618.449159
+2025-10-16 19:46:23,120 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760607754.251889
+2025-10-16 19:46:23,120 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608276.642679
+2025-10-16 19:46:23,120 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608459.838539
+2025-10-16 19:46:23,120 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608504.189329
+2025-10-16 19:46:23,130 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760608524.061419
+2025-10-16 19:46:23,130 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609016.811649
+2025-10-16 19:46:23,130 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609462.873569
+2025-10-16 19:46:23,130 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609505.792519
+2025-10-16 19:46:23,130 - kafka_producer - INFO - Message sent to topic thala-slack-events: slack_1760609547.103909
+2025-10-16 19:46:23,507 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:23,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-10-16 19:46:23,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-10-16 19:46:23,507 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-3, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:46:23,507 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:46:23,517 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:23,517 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:46:23,517 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:23,517 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:46:24,171 - email_connector - INFO - Connected to email server
+2025-10-16 19:46:24,725 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:46:24,725 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:46:36,492 - jira_connector - INFO - Waiting for next Jira check...
+2025-10-16 19:46:37,018 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:37,021 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-3
+2025-10-16 19:46:37,021 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:37,024 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-2
+2025-10-16 19:46:37,024 - jira_connector - INFO - Fetched Jira issue:
+2025-10-16 19:46:37,028 - kafka_producer - INFO - Message sent to topic thala-jira-events: KAN-1
+2025-10-16 19:46:38,474 - email_connector - INFO - Raw IMAP search result: [b'']
+2025-10-16 19:46:38,475 - email_connector - INFO - Found 0 new emails
+2025-10-16 19:46:38,520 - slack_connector - INFO - Fetched 0 new messages from Slack
+2025-10-16 19:46:38,760 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 19:46:38,760 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 19:46:38,760 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:46:39,310 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-2 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2025-10-16 19:46:39,310 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-2, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-10-16 19:46:39,314 - __main__ - INFO - Shutting down Thala Ingestion Pipeline...
+2025-10-16 19:46:39,314 - kafka.producer.kafka - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Kafka producer closed
