@@ -27,7 +27,7 @@ es = Elasticsearch(
     hosts=["https://localhost:9200"],
     ca_certs="D:\\elasticsearch-9.1.5-windows-x86_64\\elasticsearch-9.1.5\\config\\certs\\http_ca.crt",
     verify_certs=False,
-    basic_auth=("elastic", "NHyNwkjjOmO1GwUBU54_")
+    basic_auth=("elastic", "YOUR_ELASTIC_AUTH_TOKEN")
 )
 
 # Define the enhanced index mapping
