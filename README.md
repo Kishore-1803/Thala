@@ -54,7 +54,7 @@ Thala is an intelligent incident management system that automatically:
 - Extracts text from image attachments using AWS Textract
 
 ## Architecture
-<img width="1912" height="1076" alt="architecture-thala" src="https://github.com/user-attachments/assets/b393e411-f913-4ba2-8bba-13848aca0f16" />
+<img width="1912" height="1076" alt="architecture-thala" src="u-arch.jpg" />
 
 
 ## Data Flow
